@@ -1,43 +1,84 @@
+$color:red;
 
 .navbar{
-    background-color:grey;
-    color:green;
-    padding-left: 20px;
+    background-color:gray;
+    padding: 30px;
+	display:flex;
+	justify-content: space-around;
+	height: 30px;
+	border-radius: 10px;
 }
-.navbar-nav{
-margin:0;
-}
+
+
+
+
 
 .hero{
 	background-image: url(./images/billionphotos1025132.jpg);
     background-size:COVER;
 	background-position: TOP;
-	height: 600px;
+	// height: 600px;
+	
+	
 }
 .Luxury-Apartment{
     padding-top: 50px;
 	background-size: cover;
     background-position: center;
-	color: orange;
+	color: $color;
 	padding-left: 30px;
+
+	h2{
+		color: orangered;
+		font-size: 5rem;
+		margin: 0;
+		text-shadow: 5px 10px 5px black;
+	}
+
 }
+
+.portrait{
+	display: flex;
+	height: 300px;
+	width: 450px;
+	border: 5px solid $color;
+	border-radius: 10px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	
+}
+
+
+
 .photos{
 	display: flex;
 	justify-content: space-around;
+
 }
+
+	
+.hero-img{
+	width: 30vw;
+	height: 300px;
+	border: 5px solid $color;
+	border-radius: 10px;
+}
+
 .footer{
 	background-color: gray;
 	height: 100px;
 	display:flex;
 	justify-content: space-around;
+	border-radius: 10px;;
 }
 
 
 h2{
-    color:orange;
+    color: orange;
 	font-size:5rem;
 	margin:0;
 }
+
 .read-button{
     background-color: orange;
     color: white;
